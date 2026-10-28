@@ -2,7 +2,7 @@
 
 Mes skills Claude Code, pour les retrouver dans les sessions cloud.
 
-- `skills/` (15) : graphify, ponytail (6), hallmark, UI UX Pro Max (7)
+- `skills/` (16) : graphify, ponytail (6), hallmark, UI UX Pro Max (7), karpathy-guidelines
 - `hooks-src/ponytail/` : hooks ponytail (mode actif au démarrage, sous-agents, niveaux)
 - `CLAUDE.md` : déclencheur `/graphify`
 - `setup-cloud.sh` : copie tout dans `~/.claude`, installe graphify, ajoute les hooks
@@ -27,4 +27,5 @@ cd ~/.claude && tar cf - --exclude=skills/synced skills hooks-src CLAUDE.md | ta
 
 Les skills viennent de projets libres, licences dans `licenses/` :
 graphify (Apache 2.0, Graphify-Labs/graphify), ponytail (MIT, DietrichGebert/ponytail),
-hallmark (MIT, nutlope/hallmark), UI UX Pro Max (MIT, nextlevelbuilder/ui-ux-pro-max-skill).
+hallmark (MIT, nutlope/hallmark), UI UX Pro Max (MIT, nextlevelbuilder/ui-ux-pro-max-skill),
+karpathy-guidelines (MIT, multica-ai/andrej-karpathy-skills).
